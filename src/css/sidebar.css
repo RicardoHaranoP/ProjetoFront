@@ -1,0 +1,29 @@
+.sidebar {
+    background-color: var(--primary-color);
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 1;
+    width: 200px;
+    padding: 20px;
+
+  }
+  .sidebar a {
+    width: 100%;
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 2.5px;
+    margin: 2.5px 0;
+    transition: .5s;
+    align-items: center;
+    border-radius: 5px;
+}
+.sidebar li {
+    list-style-type: none;
+}
+
+.sidebar a:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
